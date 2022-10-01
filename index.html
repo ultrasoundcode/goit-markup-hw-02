@@ -4,68 +4,91 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <!-- header -->
-    <header>
-      <nav>
-        <a href="">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+    <header class="top-header">
+      <nav class="site-nav">
+        <a href="./index.html" class="logo"
+          ><span class="logo-forepart">Web</span>Studio</a
+        >
+        <ul class="site-nav-list list">
+          <li class="site-nav-item">
+            <a class="site-nav-link link" href="./index.html">Студія</a>
+          </li>
+          <li class="site-nav-item">
+            <a class="site-nav-link link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="site-nav-item">
+            <a class="site-nav-link link" href="">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts-list list">
+        <li class="contacts-item">
+          <a class="contacts-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contacts-item">
+          <a class="contacts-link link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <!-- main -->
     <main>
       <!-- hero -->
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero-section">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-btn" type="button">Замовити послугу</button>
       </section>
       <!-- features -->
-      <section>
-        <ul>
-          <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+      <section class="features-section">
+        <ul class="features-list list">
+          <li class="features-item">
+            <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="features-desc">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="features-desc">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-title">ПЛАНУВАННЯ</h3>
+            <p class="features-desc">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="features-desc">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
         </ul>
       </section>
-      <!-- about -->
-      <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
-          <li>
+      <!-- work -->
+      <section class="work-section">
+        <h2 class="section-title">Чим ми займаємося</h2>
+        <ul class="work-list list">
+          <li class="work-item">
             <img
               src="./images/work/work-img-1.jpg"
               alt="Создание сайтов для ПК"
@@ -73,7 +96,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="work-item">
             <img
               src="./images/work/work-img-2.jpg"
               alt="Создание сайтов для телефонов"
@@ -81,7 +104,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="work-item">
             <img
               src="./images/work/work-img-3.jpg"
               alt="Создание сайтов для планшетов"
@@ -91,64 +114,78 @@
           </li>
         </ul>
       </section>
-      <!-- our team -->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+      <!-- team -->
+      <section class="team-section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="list">
+          <li class="team-item">
             <img
               src="./images/team/team-1.jpg"
               alt="Ігор Дем'яненко"
               width="270"
               height="260"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <h3 class="team-title">Ігор Дем'яненко</h3>
+            <p class="team-desc">Product Designer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./images/team/team-2.jpg"
               alt="Ольга Рєпіна"
               width="270"
               height="260"
             />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-title">Ольга Рєпіна</h3>
+            <p class="team-desc">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./images/team/team-3.jpg"
               alt="Микола Тарасов"
               width="270"
               height="260"
             />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="team-title">Микола Тарасов</h3>
+            <p class="team-desc">Marketing</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./images/team/team-4.jpg"
               alt="Михайло Єрмаков"
               width="270"
               height="260"
             />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <h3 class="team-title">Михайло Єрмаков</h3>
+            <p class="team-desc">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="">WebStudio</a>
-      <address>
-        <ul>
-          <li>
-            <a href="https://goo.gl/maps/vSez6yYSjFZTD6eT7" target="_blank"
-              >м. Київ, пр-т Лесі Українки, 26</a
+    <footer class="footer">
+      <a href="./index.html" class="logo"
+        ><span class="logo-forepart">Web</span>Studio</a
+      >
+      <address class="studio-address">
+        <ul class="footer-contacts-list list">
+          <li class="footer-contacts-item">
+            <a
+              href="https://goo.gl/maps/VdQWWz9B43m97snR7"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="footer-contact-address"
+              >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="footer-contacts-item">
+            <a href="mailto:info@example.com" class="footer-contact-mail"
+              >info@example.com</a
+            >
+          </li>
+          <li class="footer-contacts-item">
+            <a href="tel:+380991111111" class="footer-contact-tel"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
