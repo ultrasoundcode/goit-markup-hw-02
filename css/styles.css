@@ -24,9 +24,13 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
+  color: var(--accent-color);
+}
+.site-nav-link.current {
   color: var(--accent-color);
 }
 /* contacts-list */
