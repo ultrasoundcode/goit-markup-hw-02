@@ -17,6 +17,9 @@ body {
   font-family: var(--main-font);
 }
 /* header */
+.top-header {
+  background-color: var(--accent-color3);
+}
 /* sit-nav */
 .site-nav-link {
   font-weight: 500;
@@ -63,6 +66,7 @@ body {
 .hero-btn {
   background-color: var(--accent-color);
   cursor: pointer;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -72,8 +76,15 @@ body {
   letter-spacing: 0.06em;
   color: var(--accent-color3);
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
 /* /hero */
 /* features */
+.features-section {
+  background-color: var(--accent-color3);
+}
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -99,11 +110,15 @@ body {
   color: #212121;
 }
 /* work */
-/* .work-section {
-} */
+.work-section {
+  background-color: var(--accent-color3);
+}
 /* team */
 .team-section {
   background-color: #f5f4fa;
+}
+.team-item {
+  background-color: var(--accent-color3);
 }
 .team-title {
   font-weight: 500;
@@ -141,18 +156,18 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contact-address {
-  color: var(--accent-color3);
+.footer-contact-address:hover {
+  color: var(--accent-color);
 }
 
 .footer-contact-mail:hover,
 .footer-contact-mail:focus {
-  color: var(--accent-color3);
+  color: var(--accent-color);
 }
 
 .footer-contact-tel:hover,
 .footer-contact-tel:focus {
-  color: var(--accent-color3);
+  color: var(--accent-color);
 }
 /* logo */
 .logo {
@@ -179,6 +194,7 @@ body {
 /* portfolio */
 .portfolio-filters-btn {
   cursor: pointer;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
