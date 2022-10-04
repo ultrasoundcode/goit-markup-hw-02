@@ -145,8 +145,13 @@ body {
 .studio-address {
   font-style: inherit;
 }
-
-.footer-contact-address,
+.footer-contact-address {
+  font-style: inherit;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  color: var(--accent-color3);
+}
 .footer-contact-mail,
 .footer-contact-tel {
   font-style: inherit;
@@ -156,7 +161,8 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contact-address:hover {
+.footer-contact-address:hover,
+.footer-contact-address:focus {
   color: var(--accent-color);
 }
 
